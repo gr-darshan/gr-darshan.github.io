@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Animation Div -->
+    <div class="background-animation"></div>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header>
+            <!-- Profile Picture -->
+            <div class="profile-pic-container">
+                <img src="Untitled.jpeg" alt="Untitled.jpeg" class="profile-pic">
+            </div>
+
+            <h1>Darshan .G.R</h1>
+            <p>Engineering Student</p>
+        </header>
+
+        <!-- About Me Section -->
+        <section id="about-me" class="about-me">
+            <h2>About Me</h2>
+            <p>I am an Engineering student. I consider myself responsible and orderly. Looking forward to gaining work experience in the industry.</p>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <p>PES Institute of Technology and Management</p>
+            <p>B.E. in Artificial Intelligence and Machine Learning, in progress (2023-2027)</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>C, C++</li>
+                <li>Java</li>
+            </ul>
+        </section>
+
+        <!-- Contact Me Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Phone: +91 8147319644</p>
+            <p>Email: darshangr2005@gmail.com</p>
+            <p>Address: PESITM, Sagar Road, Shivamogga-577201</p>
+        </section>
+
+        <!-- Resume Download Section -->
+        <section class="resume-download">
+            <button onclick="downloadResume()">Download Resume</button>
+        </section>
+    </div>
+
+    <script>
+        function downloadResume() {
+            window.location.href = "resume.pdf"; // Replace with the path to your resume file
+        }
+    </script>
+</body>
+</html>
